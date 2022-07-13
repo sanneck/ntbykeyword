@@ -48,7 +48,7 @@ def ntbkeywork():
 		extra_arguments = args.extraArguments
 
 	try:
-		res = requests.get(f'https://api.github.com/search/code?q={query}+in:file+repo:projectdiscovery/nuclei-templates')
+		res = requests.get(f'https://api.github.com/search/code?q={query}+in:file+repo:projectdiscovery/nuclei-templates&per_page=50')
 		res.raise_for_status()
 		json_results = res.json()
 
