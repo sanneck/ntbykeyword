@@ -4,6 +4,10 @@ Ntbykeyword is a python script written to avoid looking for specific [nuclei tem
 
 The script will do a search using the github api in the nuclei templates repository, then it concatenates the templates paths to your HOME path to append each template local path to the nuclei command that will run.
 
+## Screenshots
+
+![Ntbykeyword](https://imgur.com/a/U2GXoW2)
+
 ### Examples
 
 * Look for xxs related templates in one specific domain:
