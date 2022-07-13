@@ -12,8 +12,8 @@ The script will do a search using the github api in the nuclei templates reposit
 
 * Look for sqli related templates in list of domains:
 
-`python linkfinder.py -l phpdomains.txt -q sqli`
+`python ntbykeyword.py -l phpdomains.txt -q sqli`
 
 * Add extra arguments to nuclei command:
 
-`python linkfinder.py -l phpdomains.txt -q sqli -ea ' -vv'`
+`python ntbykeyword.py -l phpdomains.txt -q sqli -ea ' -vv'`
