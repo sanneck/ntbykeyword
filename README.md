@@ -21,3 +21,7 @@ The script will do a search using the github api in the nuclei templates reposit
 * Add extra arguments to nuclei command:
 
 `python ntbykeyword.py -l phpdomains.txt -q sqli -ea ' -vv'`
+
+### TODO
+
+* Only retrieves first 50 items from github api search. It should return all the items.
