@@ -6,7 +6,7 @@ The script will do a search using the github api in the nuclei templates reposit
 
 ## Screenshots
 
-![Ntbykeyword](https://imgur.com/a/U2GXoW2)
+![Ntbykeyword](https://i.imgur.com/xedkrNQ.png)
 
 ### Examples
 
