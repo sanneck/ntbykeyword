@@ -7,13 +7,6 @@ import sys
 import argparse
 
 
-def show_options():
-	print("""
-
-		this is the help
-
-		""")
-
 def ntbkeywork():
 	
 	# Parse command line
