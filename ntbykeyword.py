@@ -22,8 +22,8 @@ def ntbkeywork():
                         required=True, action="store")
 	parser.add_argument("-ea", "--extra-arguments",
 						dest="extraArguments",
-                        help="Add Nuclei extra arguments (i.e. -ea ' -vv')",
-                        action='store')
+						help="Add Nuclei extra arguments (i.e. -ea ' -vv')",
+						action='store')
 	args = parser.parse_args()
 
 	url =""
@@ -85,3 +85,4 @@ def ntbkeywork():
 if __name__ == '__main__':
 
 	ntbkeywork()
+
